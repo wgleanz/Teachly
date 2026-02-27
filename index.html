@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachly — онлайн-обучение для вашего будущего</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Добавляем иконки Font Awesome для красоты -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта с навигацией -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Teachly</h1>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#about">О курсе</a></li>
+                        <li><a href="#program">Программа</a></li>
+                        <li><a href="#price">Цена</a></li>
+                        <li><a href="#contact" class="nav-btn">Записаться</a></li>
+                    </ul>
+                </nav>
+                <div class="burger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный экран (Hero Section) -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-badge">Teachly — образование будущего</span>
+                    <h1>Онлайн-курсы <br>для <span class="highlight">вашего будущего</span></h1>
+                    <p>Освойте востребованную профессию и начните зарабатывать уже через 3 месяца. Практика, поддержка менторов и помощь с трудоустройством.</p>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-text">студентов</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">92%</span>
+                            <span class="stat-text">трудоустройство</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-text">поддержка</span>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="#price" class="btn btn-primary">Выбрать курс</a>
+                        <a href="#about" class="btn btn-outline">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Студенты учатся">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с преимуществами обучения -->
+    <section class="benefits" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Почему выбирают <span class="highlight">Teachly</span></h2>
+                <p>Мы создаем образование, которое реально работает</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Живое общение</h3>
+                    <p>Вебинары с экспертами, групповые чаты и возможность задать вопросы лично ментору</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Доступ навсегда</h3>
+                    <p>Все материалы курса остаются у вас даже после окончания обучения</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Реальные проекты</h3>
+                    <p>Работаете с настоящими задачами и формируете портфолио во время учебы</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Диплом и помощь</h3>
+                    <p>Сертификат государственного образца и помощь в трудоустройстве</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Промо-блок курса по продюсированию -->
+    <section class="course-promo" id="program">
+        <div class="container">
+            <div class="course-promo-content">
+                <div class="course-promo-image">
+                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Продюсирование">
+                </div>
+                <div class="course-promo-text">
+                    <span class="course-badge">Популярный курс</span>
+                    <h2>Продюсирование <span class="highlight">блогеров и инфлюенсеров</span></h2>
+                    <p class="course-description">Научитесь создавать и масштабировать личные бренды. Станьте правой рукой успешного блогера и зарабатывайте на этом.</p>
+                    
+                    <div class="course-features">
+                        <div class="course-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Создание стратегии продвижения</span>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Работа с рекламодателями и интеграции</span>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Юридические аспекты и договоры</span>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Аналитика и увеличение дохода блогера</span>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Управление командой и делегирование</span>
+                        </div>
+                        <div class="course-feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Кризис-менеджмент для блогеров</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Для кого этот курс -->
+    <section class="target-audience">
+        <div class="container">
+            <div class="section-header">
+                <h2>Кому подойдет этот курс</h2>
+                <p>Программа создана для разных уровней подготовки</p>
+            </div>
+            <div class="audience-grid">
+                <div class="audience-card">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Начинающие продюсеры</h3>
+                    <p>Хотите войти в профессию и получить системные знания с нуля</p>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Действующие блогеры</h3>
+                    <p>Хотите систематизировать работу и увеличить доход от блога</p>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>SMM-менеджеры</h3>
+                    <p>Планируете расширить компетенции и стать более ценным специалистом</p>
+                </div>
+                <div class="audience-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Маркетологи</h3>
+                    <p>Хотите работать с личными брендами и инфлюенс-маркетингом</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подробные преимущества курса по продюсированию -->
+    <section class="course-advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2>Что вы получите на курсе</h2>
+                <p>7 модулей, 3 месяца практики и поддержка экспертов</p>
+            </div>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <div class="advantage-number">01</div>
+                    <div class="advantage-content">
+                        <h3>Системные знания</h3>
+                        <p>Полное понимание профессии продюсера: от поиска блогера до масштабирования его дохода</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">02</div>
+                    <div class="advantage-content">
+                        <h3>Работа с реальными кейсами</h3>
+                        <p>Разберете успешные и провальные проекты, поймете, как избегать ошибок</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">03</div>
+                    <div class="advantage-content">
+                        <h3>Портфолио и кейсы</h3>
+                        <p>Создадите стратегию для реального или учебного блогера, которую можно показать работодателю</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">04</div>
+                    <div class="advantage-content">
+                        <h3>Чат с менторами</h3>
+                        <p>Общение с действующими продюсерами, разбор ваших ситуаций, ответы на вопросы</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">05</div>
+                    <div class="advantage-content">
+                        <h3>Доступ к сообществу</h3>
+                        <p>Закрытый клуб выпускников и действующих студентов, полезные контакты и нетворкинг</p>
+                    </div>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-number">06</div>
+                    <div class="advantage-content">
+                        <h3>Помощь с трудоустройством</h3>
+                        <p>Поможем составить резюме и порекомендуем лучших студентов продюсерским центрам</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок с ценой (70 BYN) -->
+    <section class="pricing" id="price">
+        <div class="container">
+            <div class="pricing-card">
+                <div class="pricing-badge">Специальное предложение</div>
+                <h2>Стоимость обучения</h2>
+                <div class="pricing-amount">
+                    <span class="old-price">120 BYN</span>
+                    <span class="current-price">70 BYN</span>
+                    <span class="price-period">/месяц</span>
+                </div>
+                <div class="pricing-includes">
+                    <p><i class="fas fa-check"></i> Полный доступ ко всем модулям</p>
+                    <p><i class="fas fa-check"></i> Обратная связь от менторов</p>
+                    <p><i class="fas fa-check"></i> Чат с участниками курса</p>
+                    <p><i class="fas fa-check"></i> Сертификат в конце обучения</p>
+                    <p><i class="fas fa-check"></i> Доступ к материалам навсегда</p>
+                </div>
+                <a href="#contact" class="btn btn-primary btn-large">Записаться на курс</a>
+                <p class="pricing-guarantee">Вы можете отменить подписку в любой момент</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма для заявок/вопросов -->
+    <section class="contact-form" id="contact">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-text">
+                    <h2>Остались вопросы? <br><span class="highlight">Напишите нам</span></h2>
+                    <p>Заполните форму, и наш менеджер свяжется с вами в течение 15 минут в рабочее время. Или напишите нам в мессенджеры:</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i> Telegram</a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        <a href="#" class="social-link"><i class="fab fa-viber"></i> Viber</a>
+                    </div>
+                    <div class="contact-phone">
+                        <i class="fas fa-phone"></i>
+                        <span>+375 (29) 123-45-67</span>
+                    </div>
+                    <div class="contact-email">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@teachly.by</span>
+                    </div>
+                </div>
+                <div class="form-fields">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Ваш Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Ваш телефон (необязательно)">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Выберите курс</option>
+                                <option value="producer">Продюсирование блогеров</option>
+                                <option value="smm">SMM-менеджмент</option>
+                                <option value="target">Таргетолог</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Ваш вопрос" rows="4"></textarea>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="privacy" checked required>
+                            <label for="privacy">Я согласен с <a href="#privacy-policy">политикой конфиденциальности</a></label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал сайта с политикой конфиденциальности и контактами -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Teachly</h2>
+                    <p>Онлайн-образование для вашего будущего</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#program">Курсы</a></li>
+                        <li><a href="#price">Цены</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Документы</h4>
+                    <ul>
+                        <li><a href="#" id="privacy-link">Политика конфиденциальности</a></li>
+                        <li><a href="#">Публичная оферта</a></li>
+                        <li><a href="#">Договор оферты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contacts">
+                    <h4>Контакты</h4>
+                    <p><i class="fas fa-phone"></i> +375 (29) 123-45-67</p>
+                    <p><i class="fas fa-envelope"></i> info@teachly.by</p>
+                    <p><i class="fas fa-map-marker-alt"></i> г. Минск, ул. Примерная, 1</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Teachly. Все права защищены. Образовательные услуги оказываются ИП Иванов И.И., УНП 123456789</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Модальное окно с политикой конфиденциальности -->
+    <div id="privacy-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Политика конфиденциальности</h2>
+            <div class="modal-text">
+                <p>Настоящая Политика конфиденциальности персональных данных (далее – Политика конфиденциальности) действует в отношении всей информации, которую сайт Teachly (далее – Сайт) может получить о пользователе во время использования им Сайта.</p>
+                <h3>1. Определение терминов</h3>
+                <p>1.1. В настоящей Политике конфиденциальности используются следующие термины:
+                <br>1.1.1. «Администрация сайта» – уполномоченные сотрудники на управления сайтом, действующие от имени ИП Иванов И.И., которые организуют и (или) осуществляет обработку персональных данных, а также определяет цели обработки персональных данных, состав персональных данных, подлежащих обработке, действия (операции), совершаемые с персональными данными.
+                <br>1.1.2. «Персональные данные» - любая информация, относящаяся к прямо или косвенно определенному или определяемому физическому лицу (субъекту персональных данных).</p>
+                <h3>2. Сбор и обработка персональных данных</h3>
+                <p>2.1. Сайт собирает и хранит только те персональные данные, которые необходимы для предоставления услуг и исполнения договоренностей с пользователем.
+                <br>2.2. Персональные данные пользователя могут использоваться в следующих целях:
+                <br>- Идентификация пользователя для оформления заявки на обучение;
+                <br>- Установление с пользователем обратной связи;
+                <br>- Подтверждение достоверности и полноты персональных данных;
+                <br>- Предоставление пользователю эффективной клиентской поддержки.</p>
+                <h3>3. Защита персональных данных</h3>
+                <p>3.1. Администрация сайта принимает необходимые организационные и технические меры для защиты персональных данных пользователя от неправомерного или случайного доступа, уничтожения, изменения, блокирования, копирования, распространения, а также от иных неправомерных действий третьих лиц.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подключаем скрипты -->
+    <script src="script.js"></script>
+</body>
+</html>
